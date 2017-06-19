@@ -4,7 +4,8 @@
   "author": "Tobias Koppers @sokra",
   "description": "file loader module for webpack",
   "files": [
-    "dist"
+    "dist",
+    "index.js"
   ],
   "dependencies": {
     "loader-utils": "^1.0.2"
@@ -54,7 +55,7 @@
     "url": "https://github.com/webpack/file-loader/issues"
   },
   "homepage": "https://github.com/webpack/file-loader",
-  "main": "dist/cjs.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -62,7 +63,7 @@
   "engines": {
     "node": ">= 4.3 < 5.0.0 || >= 5.10"
   },
-  "pre-commit": "lint-staged",
+
   "lint-staged": {
     "*.js": [
       "eslint --fix",

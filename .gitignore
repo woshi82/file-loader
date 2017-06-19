@@ -4,7 +4,7 @@ examples/*/dist/*
 # development
 node_modules/
 /coverage
-/dist
+# /dist
 /local
 /reports
 logs
